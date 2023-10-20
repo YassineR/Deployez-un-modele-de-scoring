@@ -7,9 +7,7 @@ This repository includes two key components: the Credit Scoring Dashboard and th
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#dashboard)
-  - [Dashboard](#dashboard)
-  - [API](#API)
+  - [Prerequisites](#Prerequisites)
 - [Usage](#usage)
   - [Dashboard](#dashboard)
   - [API](#api)
