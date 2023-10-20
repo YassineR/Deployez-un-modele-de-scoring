@@ -96,14 +96,27 @@ The API will be accessible at `http://localhost:5000`. Refer to the API document
 
 ## File Structure
 
-- **P7/**
+- **Modelisation**: Folder containing Jupyter notebooks with the data processing.
+    - `Pretraitement et premiere modélisation.ipynb`: Notebook detailing the pre processing and the modelisation.
+    - `Optimisation modéle.ipynb`: Notebook detailing the model optimisation using Optuna, cross validation and lgbm threshold.
+  
+- **Data Drift**: Folder containing the data drift analysis.
+    - `Data drift.ipynb` : Notebook detailing the data drift analysis using Evidently.
+    - `*_data_drift.html` : HTML files describing the Data Drift by data file.
+
+- **Explanations**: Files describing the key stages of the project.
+    - `Note methodologique`: Methodological documentation to describe the modelisation and optimisation process.
+    - `Introduction Dashboard API.ipynb`: Introductory file explaining the project's objectives, folder structure, and a list of used packages for both the dashboard and API applications.
+    - `Presentation.pdf`: Slides providing an overview of my project, including the data analysis process and key findings presented during the defense.
+      
+- **P7 repo**
   - **dashboard.py**: Streamlit application for the interactive dashboard.
   - **home_credit_data_sample.csv**: Sample preprocessed data for demonstration.
   - **logo.png**: Project logo used in the dashboard.
   - **model.pkl**: Serialized LightGBM model for credit scoring.
   - **requirements.txt**: List of Python dependencies.
   - **tools.py**: Utility functions for generating visualizations.
-- **P7-backend/**
+- **P7-backend repo**
   - **app.py**: Flask-based API for credit scoring predictions.
   - **lgbm_client_scoring.pkl**: Serialized LightGBM model for the API.
   - **requirements.txt**: List of Python dependencies for the API.
@@ -115,8 +128,3 @@ The API will be accessible at `http://localhost:5000`. Refer to the API document
 ![Eval1](Evaluation_1.png)
 ![Eval2](Evaluation_2.png)
 ![Eval3](Evaluation_3.png)
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
