@@ -110,9 +110,12 @@ The API will be accessible at `http://localhost:5000`. Refer to the API document
   - **tests/**
     - **test_app.py**: Unit tests for API endpoints.
 
-## Contributing
 
-Contributions are welcome! Please open an issue or create a pull request to discuss changes or additions.
+## Skills and assessment 
+![Eval1](Evaluation_1.png)
+![Eval2](Evaluation_2.png)
+![Eval3](Evaluation_3.png)
+
 
 ## License
 
