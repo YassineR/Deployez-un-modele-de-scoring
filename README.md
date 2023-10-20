@@ -1,7 +1,7 @@
 # Credit Scoring Dashboard and API
 Welcome to the main repository of the Credit Scoring Project.
-This repository contains the code for a machine learning-powered Credit Scoring Dashboard and API developed for the "Prêt à dépenser" financial company. The project aims to predict the probability of credit default for potential clients, facilitate transparent decision-making, and provide insights for relationship managers.
-Welcome to the main repository of the Credit Scoring Project. This project includes two key components: the Credit Scoring Dashboard and the Credit Scoring API. The repository is structured into two submodules: P7 and P7-backend.
+The project aims to predict the probability of credit default for potential clients, facilitate transparent decision-making, and provide insights for relationship managers.
+This repository includes two key components: the Credit Scoring Dashboard and the Credit Scoring API.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ Welcome to the main repository of the Credit Scoring Project. This project inclu
 ### Prerequisites
 
 - Python 3.7 or higher
-- Install required packages using `pip install -r requirements.txt`
+- Data available here : https://www.kaggle.com/c/home-credit-default-risk/data
 
 ## Usage
 
