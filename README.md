@@ -8,9 +8,9 @@ This repository includes two key components: the Credit Scoring Dashboard and th
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#Prerequisites)
-- [Usage](#usage)
-  - [Dashboard](#dashboard)
-  - [API](#api)
+  - [Usage](#usage)
+    - [Dashboard](#dashboard)
+    - [API](#api)
 - [File Structure](#file-structure)
 - [Skills and assessment ](#skills-and-assessment )
 
@@ -29,11 +29,11 @@ This repository includes two key components: the Credit Scoring Dashboard and th
 - Python 3.7 or higher
 - Data available here : https://www.kaggle.com/c/home-credit-default-risk/data
 
-## Usage
+### Usage
 
-### Dashboard
+#### Dashboard
 
-#### Installation
+##### Installation
 
 1. Clone the repository:
 
@@ -54,15 +54,15 @@ This repository includes two key components: the Credit Scoring Dashboard and th
    ```
 To run the interactive dashboard, execute the following command:
 
-#### Run
+##### Run
 ```bash
 streamlit run dashboard.py
 ```
 
 Access the dashboard at `http://localhost:8501` in your web browser.
 
-### API
-#### Installation
+#### API
+##### Installation
 
 1. Clone the repository:
 
@@ -83,7 +83,7 @@ Access the dashboard at `http://localhost:8501` in your web browser.
    ```
 To run the interactive dashboard, execute the following command:
 
-#### Run
+##### Run
 To start the Flask API, run:
 
 ```bash
